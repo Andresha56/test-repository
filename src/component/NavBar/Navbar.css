@@ -1,0 +1,45 @@
+.nav-heder{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.nav-container{
+    max-width: 1200px;
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: auto;
+}
+.nav-right-container,.nav-left-container{
+    display:flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-logo-img,.nav-user-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+.nav-logo-img img{
+    height: 100%;
+    width: 100%;
+}
+.nav-user-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+.nav-user-info p{
+    font-weight: 500;
+}
+.nav-user-info a{
+    color:#a4a4d2;
+    font-size:0.8rem;
+}
+
+
+.nav-container a {
+    text-decoration: none;
+}
+.nav-container p{
+    margin: 0;
+}
